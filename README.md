@@ -91,3 +91,10 @@ document.getElementById('qr-text').style.display = 'none';
     image.src = qrCodeImage;
 }
 ```
+
+and there you have it! A basic and simple designed <b>QR Code Generator</b>
+
+Thank you all this is WhiteCat2023!
+Stay tuned for more school projects and activities! 😊
+![ClipWindowsGIF](https://github.com/user-attachments/assets/c1f7d6e6-bd6d-44ea-a1ff-c51b307bc523)
+
