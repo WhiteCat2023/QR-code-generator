@@ -51,9 +51,43 @@ and this is the output of my `index.html` file after adding the design. Not that
 
 ![image](https://github.com/user-attachments/assets/d6468482-b696-4b52-92e8-6cbd06ce3a4c)
 
-In my `index.html` as you can see there are tags with `id=""` and `class=""` attributes assigned to them. These are the attributes that we will use in manipulating the DOM in the `script.js`. But first, to be able to use the `toDataURL()` function which turn the data to an qr code url we must include the script for the <b>QRious library</b> to be able to use the function and we jsut need to copy and paste the CDN for this library
+In my `index.html` as you can see there are tags with `id=""` and `class=""` attributes assigned to them. These are the attributes that we will use in manipulating the DOM in the `script.js`. But first, to be able to use the `toDataURL()` function which turn the data to an qr code url we must include the script for the <b>QRious library</b> to be able to use the function and we just need to copy and paste the CDN for this library
 
    ```html 
       <script src="https://cdnjs.cloudflare.com/ajax/libs/qrious/4.0.2/qrious.min.js"></script>
    ```
 
+and the initial the QRious library then make the `generateQRCode()` function and call the 
+
+   ```js
+   function generateQRCode(){
+      const value = document.getElementById('qr-code-value').value;
+   ```
+
+that specifies our `<input/>` element the new is make the options first is the value of the input, 2nd is the size of the qr code which converts it to `200x200` and the 3rd one is the level which I'm still learning at what it would do and what are its parameters.
+
+   ```js
+   const options = {
+        value: value,
+        size: 200,
+        level: 'H'
+    }
+   ```
+
+then the conversion of the input data to qr code url 
+
+```js
+const qrCode = new QRious(options);
+const qrCodeImage = qrCode.toDataURL();
+console.log(qrCodeImage);
+```
+
+then the manipulation of the design to output the QR Code and hide the text inside the `<p></p>` element.
+
+```js
+document.getElementById('qr-text').style.display = 'none';
+    const image = document.getElementById('qr-image');
+    image.style.display = 'block';
+    image.src = qrCodeImage;
+}
+```
