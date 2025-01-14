@@ -3,11 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>QR Code Generator</title>
-    
+    <title>QR Code Generator</title>   
     <link rel="stylesheet" href="styles.css">
     <script src="https://kit.fontawesome.com/a4f80c6f9f.js" crossorigin="anonymous"></script>
-
 </head>
 <body>
     <nav>
@@ -20,14 +18,16 @@
                 <input type="text" id="qr-code-value" placeholder="Enter text or URL">
                 <button type="button" onclick="generateQRCode()">Generate</button>
                 <div class="qr-container">
-                    <p id="qr-text">QR goes here <i class="fa-solid fa-qrcode"></i></p>
+                    <p id="qr-text">QR goes here <i class="fa-solid fa-image"></i></p>
                     <img id="qr-image" alt="QR" style="display: none;"/>
                 </div>
                 <!-- <img id="qr-code-image" alt="QR code"> -->
-            </form>
-            
-        </article>
+            </form>  
+        </article>     
     </section>
+    <footer>
+        <p style="text-align: center;">Made by Berndt Dennis F. Canaya  &copy; 2025</p>
+    </footer>
     <script src ="https://cdnjs.cloudflare.com/ajax/libs/qrious/4.0.2/qrious.min.js"></script>
     <script>
         function generateQRCode(){
@@ -40,7 +40,7 @@
             }
 
             const qrCode = new QRious(options);
-            const qrCodeImage = qrCode.toDataUrl;
+            const qrCodeImage = qrCode.toDataURL();
             console.log(qrCodeImage);
 
             document.getElementById('qr-text').style.display = 'none';
@@ -49,6 +49,5 @@
             image.src = qrCodeImage;
         }
     </script>
-    
 </body>
 </html>

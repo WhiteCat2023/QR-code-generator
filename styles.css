@@ -75,6 +75,7 @@ button{
     border-radius: 10px;
     display: flex;
     align-items: center;
+    overflow: hidden;
 }
 .qr-container p{
     width: 100%;
@@ -82,4 +83,5 @@ button{
 }
 #qr-image{
     display: none;
+    border-radius: 10px;
 }
