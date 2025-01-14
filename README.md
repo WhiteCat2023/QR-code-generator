@@ -18,7 +18,7 @@ Step 1 is to make these 3 files in your code editor it can be any editor of your
 
 ![image](https://github.com/user-attachments/assets/6eb4e295-f707-45a8-913a-a0e3e4528581)
 
-Every HTML file needs to have this as there skeleton. The '<!DOCTYPE html>' tag represents that the document type of the file is HTML and then the '<html></html>' where we can add our '<head></head>' and '<body></body>', I'll discuss in another time if ever I get on to my plan in making a youtube videos about coding.
+Every HTML file needs to have this as there skeleton. The [<!DOCTYPE html>] tag represents that the document type of the file is HTML and then the '<html></html>' where we can add our '<head></head>' and '<body></body>', I'll discuss in another time if ever I get on to my plan in making a youtube videos about coding.
 
 ### Step 3: Structure your HTML
 
@@ -53,5 +53,5 @@ and this is the output of my 'index.html' file after adding the design. Not that
 
 In my 'index.html' as you can see there are tags with 'id=""' and 'class=""' attributes assigned to them. These are the attributes that we will use in manipulating the DOM in the 'script.js'. But first, to be able to use the 'toDataURL()' function which turn the data to an qr code url we must include the script for the <b>QRious library</b> to be able to use the function and we jsut need to copy and paste the CDN for this library
 
-  <code> '<script src="https://cdnjs.cloudflare.com/ajax/libs/qrious/4.0.2/qrious.min.js"></script> '</code>
+  <code> <script src="https://cdnjs.cloudflare.com/ajax/libs/qrious/4.0.2/qrious.min.js"></script> </code>
 
