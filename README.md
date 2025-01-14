@@ -6,7 +6,7 @@ This repo is for a simple QR Code generator made from HMTL, CSS, and JS. This si
 
 ## Steps in making this QR Code Generator
 
-Use must have atleast basic understanding of HTML, CSS, and JS.
+You must have atleast basic understanding of HTML, CSS, and JS.
 
 ### Step 1: Create index.html, styles.css, script.js
 
