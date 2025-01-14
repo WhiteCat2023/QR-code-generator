@@ -1,4 +1,4 @@
-# QR-code-generator
+# QR Code Generator(WhiteCat2023)
 
 Made by Berndt Dennis F. Canaya
 
