@@ -67,30 +67,30 @@ and the initial the QRious library then make the `generateQRCode()` function and
 that specifies our `<input/>` element the new is make the options first is the value of the input, 2nd is the size of the qr code which converts it to `200x200` and the 3rd one is the level which I'm still learning at what it would do and what are its parameters.
 
    ```js
-   const options = {
-        value: value,
-        size: 200,
-        level: 'H'
-    }
+      const options = {
+           value: value,
+           size: 200,
+           level: 'H'
+       }
    ```
 
 then the conversion of the input data to qr code url 
 
-```js
-const qrCode = new QRious(options);
-const qrCodeImage = qrCode.toDataURL();
-console.log(qrCodeImage);
-```
+   ```js
+      const qrCode = new QRious(options);
+      const qrCodeImage = qrCode.toDataURL();
+      console.log(qrCodeImage);
+   ```
 
 then the manipulation of the design to output the QR Code and hide the text inside the `<p></p>` element.
 
-```js
-document.getElementById('qr-text').style.display = 'none';
-    const image = document.getElementById('qr-image');
-    image.style.display = 'block';
-    image.src = qrCodeImage;
-}
-```
+   ```js
+      document.getElementById('qr-text').style.display = 'none';
+      const image = document.getElementById('qr-image');
+      image.style.display = 'block';
+      image.src = qrCodeImage;
+   }
+   ```
 
 and there you have it! A basic and simple designed <b>QR Code Generator</b>
 
