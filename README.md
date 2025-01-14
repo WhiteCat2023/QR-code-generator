@@ -53,5 +53,5 @@ and this is the output of my `index.html` file after adding the design. Not that
 
 In my `index.html` as you can see there are tags with `id=""` and `class=""` attributes assigned to them. These are the attributes that we will use in manipulating the DOM in the `script.js`. But first, to be able to use the `toDataURL()` function which turn the data to an qr code url we must include the script for the <b>QRious library</b> to be able to use the function and we jsut need to copy and paste the CDN for this library
 
-  <code> <script src="https://cdnjs.cloudflare.com/ajax/libs/qrious/4.0.2/qrious.min.js"></script> </code>
+   ```js <script src="https://cdnjs.cloudflare.com/ajax/libs/qrious/4.0.2/qrious.min.js"></script> ```
 
