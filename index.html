@@ -28,26 +28,7 @@
     <footer>
         <p style="text-align: center;">Made by Berndt Dennis F. Canaya  &copy; 2025</p>
     </footer>
-    <script src ="https://cdnjs.cloudflare.com/ajax/libs/qrious/4.0.2/qrious.min.js"></script>
-    <script>
-        function generateQRCode(){
-            const value = document.getElementById('qr-code-value').value;
-            
-            const options = {
-                value: value,
-                size: 200,
-                level: 'H'
-            }
-
-            const qrCode = new QRious(options);
-            const qrCodeImage = qrCode.toDataURL();
-            console.log(qrCodeImage);
-
-            document.getElementById('qr-text').style.display = 'none';
-            const image = document.getElementById('qr-image');
-            image.style.display = 'block';
-            image.src = qrCodeImage;
-        }
-    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrious/4.0.2/qrious.min.js"></script>
+    <script src="./script.js"></script>
 </body>
 </html>
