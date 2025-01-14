@@ -18,7 +18,7 @@ Step 1 is to make these 3 files in your code editor it can be any editor of your
 
 ![image](https://github.com/user-attachments/assets/6eb4e295-f707-45a8-913a-a0e3e4528581)
 
-Every HTML file needs to have this as there skeleton. The [<!DOCTYPE html>] tag represents that the document type of the file is HTML and then the '<html></html>' where we can add our '<head></head>' and '<body></body>', I'll discuss in another time if ever I get on to my plan in making a youtube videos about coding.
+Every HTML file needs to have this as there skeleton. The `<!DOCTYPE html>` tag represents that the document type of the file is HTML and then the '<html></html>' where we can add our '<head></head>' and '<body></body>', I'll discuss in another time if ever I get on to my plan in making a youtube videos about coding.
 
 ### Step 3: Structure your HTML
 
