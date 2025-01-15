@@ -94,6 +94,10 @@ then the manipulation of the design to output the QR Code and hide the text insi
 
 and there you have it! A basic and simple designed <b>QR Code Generator</b>
 
+## Instructions 
+
+To use my qr code generator you simply need to go to it's URL and paste or type what text your want it can text and url then click on the generate button to generate the QR code.
+
 Thank you all this is WhiteCat2023!
 Stay tuned for more school projects and activities! 😊
 <br>
