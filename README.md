@@ -97,6 +97,8 @@ and there you have it! A basic and simple designed <b>QR Code Generator</b>
 Thank you all this is WhiteCat2023!
 Stay tuned for more school projects and activities! 😊
 <br>
+<center>
 ![MuaKissGIF (2)](https://github.com/user-attachments/assets/fa7f3731-4e71-4182-af20-a1f46615583d)
+</center>
 
 
